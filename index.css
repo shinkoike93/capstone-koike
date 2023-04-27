@@ -1,0 +1,56 @@
+* {
+	font-family: "Concert One";
+	font-size: 25px;
+}
+
+#knuckles {
+	width: 300px;
+	border-radius: 150px;
+	position-center
+	display: relative;
+	margin-top: 2rem;
+	height: 300px;
+}
+
+#bg-image {
+	background-image: url(https://initiate.alphacoders.com/images/748/cropped-3840-2160-748350.png?6188);
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+#name {
+	color: white;
+}
+
+.card-body {
+	max-width: 15rem;
+	color: white;
+}
+
+.card-title{
+	color: #E5EB17;
+}
+
+#pets {
+	margin-top: 5rem;
+	color: white;
+}
+
+#tools {
+	margin-top: 5rem;
+	color: white;
+}
+
+#tools-img {
+	margin-bottom: 5rem;
+}
+
+#forms {
+	background-image: url(https://initiate.alphacoders.com/images/781/cropped-3840-2160-781842.jpg?3884);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+#footer	{
+	font-size: 20px!important;
+}
