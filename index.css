@@ -3,18 +3,22 @@
 	font-size: 25px;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 #knuckles {
 	width: 300px;
 	border-radius: 150px;
-	position-center
 	display: relative;
 	margin-top: 2rem;
 	height: 300px;
 }
 
 #bg-image {
-	background-image: url(https://initiate.alphacoders.com/images/748/cropped-3840-2160-748350.png?6188);
+	background-image: url(https://images4.alphacoders.com/992/992073.jpg);
 	background-repeat: repeat;
+	background-position: center top;
 	background-attachment: scroll;
 }
 
@@ -23,7 +27,6 @@
 }
 
 .card-body {
-	max-width: 15rem;
 	color: white;
 }
 
@@ -33,12 +36,10 @@
 
 #pets {
 	margin-top: 5rem;
-	color: white;
 }
 
 #tools {
 	margin-top: 5rem;
-	color: white;
 }
 
 #tools-img {
@@ -46,11 +47,21 @@
 }
 
 #forms {
-	background-image: url(https://initiate.alphacoders.com/images/781/cropped-3840-2160-781842.jpg?3884);
+	min-height: 100vh;
+	background-image: url(https://images4.alphacoders.com/822/822481.jpg);
 	background-repeat: no-repeat;
+	background-position: center top;
 	background-attachment: scroll;
 }
 
 #footer	{
 	font-size: 20px!important;
+	display: inline-block;
+	position: relative;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+#footer2 {
+	margin-top: 3rem;
 }
