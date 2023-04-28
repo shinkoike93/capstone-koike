@@ -1,6 +1,7 @@
 * {
 	font-family: "Concert One";
 	font-size: 25px;
+	box-sizing: border-box;
 }
 
 html {
@@ -64,4 +65,47 @@ html {
 
 #footer2 {
 	margin-top: 3rem;
+}
+
+#image-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 30px 10px;
+}
+
+#image-container #picture-heading {
+	padding-bottom: 1rem;
+}
+
+#image-container #picture-heading h3{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#image-container #pictures {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#image-container #pictures #gallery-images {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.gallery2 {
+	border-radius: 5px;
+	float: center;
+  	width: 100%;
+  	padding: 10px;
+  	margin-bottom: 1rem;
+  	height: auto;
+  	max-width: 100%;
+  	background-repeat: no-repeat;
+  	background-size: contain;
 }
